@@ -1,0 +1,33 @@
+//Subscrction
+<p id="demo"> </p>
+<script> 
+ var x=5;
+ var y=3;
+ var z= `Substraction of 3 and 5 is  ${x - y};`
+ html =`<h2> ${z} </h2>`
+ document.getElementById("demo").innerHTML=html;
+</script>
+
+//Multiplication
+
+<p id="demo"> </p>
+<script> 
+ var x=5;
+ var y=3;
+ var z= `Multiplication of 3 and 5 is  ${x * y};`
+ html =`<h2> ${z} </h2>`
+ document.getElementById("demo").innerHTML=html;
+</script>
+
+
+//Division
+<p id="demo"> </p>
+<script> 
+ var x=5;
+ var y=3;
+ var z= `Division of 3 and 5 is  ${x / y};`
+ html =`<h2> ${z} </h2>`
+ document.getElementById("demo").innerHTML=html;
+</script>
+
+

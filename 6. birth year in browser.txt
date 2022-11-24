@@ -1,0 +1,14 @@
+<p id="demo"> </p>
+<p id="demo2"> </p>
+
+<script>
+var x= "My Birth Year is";
+var birthYear=1996;
+var z = x + " " + birthYear;
+var y= typeof birthYear
+var q="Data type of my declared variable is";
+var qa=q + " " + y;
+document.getElementById("demo").innerHTML=z;
+document.getElementById("demo2").innerHTML=qa;
+
+</script>

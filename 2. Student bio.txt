@@ -1,0 +1,10 @@
+<script>
+var firstName="Qamar";
+var lastName="Sharif";
+var fullName= firstName + " " + lastName;
+alert(fullName);
+var age= "15 Years Old";
+alert(age);
+var Certificate= "Certified Mobile Application Development";
+alert(Certificate);
+</script>

@@ -1,0 +1,51 @@
+<p id="demo"> </p>
+<p id="demo1"> </p>
+<p id="demo2"> </p>
+<p id="demo3"> </p>
+<p id="demo4"> </p>
+<script> 
+var x= 5;
+
+y="Initial Value is:"
+z=`${y} ${x}`
+ document.getElementById("demo").innerHTML=z;
+</script>
+
+<script> 
+var x= 5;
+q=++x;
+y="After increment the value of x is:"
+z=`${y} ${x}`
+ document.getElementById("demo1").innerHTML=z;
+</script>
+
+<script> 
+var x= 5;
+x+=7
+q=++x;
+y="The Value of x after adding 7 is:"
+z=`${y} ${x}`
+ document.getElementById("demo2").innerHTML=z;
+</script>
+
+<script> 
+var x= 5;
+x+=7
+q=-x;
+y="The value of x after decrement is:"
+z=`${y} ${x}`
+ document.getElementById("demo3").innerHTML=z;
+</script>
+
+
+<script> 
+var x= 5;
+x+=7
+q=-x;
+y="The value of x after decrement is:"
+z=`${y}  ${x}`
+t= 12%3;
+u=`The value of x after remainder % is ${t}`
+ document.getElementById("demo4").innerHTML=u;
+</script>
+

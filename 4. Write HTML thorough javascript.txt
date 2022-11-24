@@ -1,0 +1,4 @@
+<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML="Yeah I can Write HTML through Javascript"
+</script>
