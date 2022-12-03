@@ -1,4 +1,0 @@
-<script>
-var email="My email address is mqamar591@gmail.com";
-alert(email)
-</script>
