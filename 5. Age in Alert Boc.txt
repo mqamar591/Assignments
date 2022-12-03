@@ -1,5 +1,0 @@
-
-<script>
-var age="I am 29 years Old";
-alert(age)
-</script>
